@@ -7,15 +7,27 @@ header{
 }
 
 #logo{
-    height: 80px;
-    margin: 80px 5px 10px ;
+    height: 200px;
+    margin: 150px 5px 10px ;
 }
 
 main {
-    margin: 0 5px;
+    width: 80%;
+    margin: 0 10%;
 }
+
+h1, .author, .date, .gallery {
+    text-align: center;
+}
+
+.gallery{
+    background-color: silver;
+    padding: 20px;
+}
+
 .author, .date, .readMore{
     color:#808080;
+
 }
 
 .author, .readMore{
@@ -65,6 +77,7 @@ td{
     height: 200px;
     background: url(../img/monitor.jpg) no-repeat;
     background-size: cover;
+    display: inline-block;
 }
 
 #linkTwo{
@@ -72,11 +85,7 @@ td{
     height: 200px;
     background: url(../img/graph.jpg) no-repeat;
     background-size: cover;
-}
-
-.readMore{
-
-
+    display: inline-block;
 }
 
 h3{
