@@ -1,13 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+html, body{
+    margin:0 auto;
+}
+
 header{
     background:  #4EA0FF url(../img/pattern.png) top center;
 }
 
 #logo{
     height: 80px;
-    margin: 80px 0px 10px ;
+    margin: 80px 5px 10px ;
+}
+
+main {
+    margin: 0 5px;
+}
+.author, .date{
+    color:#808080;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: #4EA0FF;
+}
+
+.date, .gallery p{
+    font-size: 14px;
+}
+
+.highlighted{
+    background-color: #FFFF00;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: left;
+}
+
+
+.tTitle{
+    background-color: #4EA0FF;
+}
+
+.coloredRow{
+    background-color: aquamarine;
+}
+
+td{
+    width: 20%;
+}
+
+.moreText{
+    width: 60%;
+}
+
+#linkOne{
+    width: 250px;
+    height: 200px;
+    background: url(../img/monitor.jpg) no-repeat;
+    background-size: cover;
+}
+
+#linkTwo{
+    width: 250px;
+    height: 200px;
+    background: url(../img/graph.jpg) no-repeat;
+    background-size: cover;
+}
+
+h3{
+    color:#FFFFFF;
+    margin: 10px;;
 }
