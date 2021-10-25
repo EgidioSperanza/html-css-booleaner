@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgb(52, 102, 83) url(../img/pattern.png);
+    background-size: contain;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, .subtitle{
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+hr{
+    border: rgb(52, 102, 83) dotted 10px;
+    border-bottom: none;
+    width: 200px;
+    margin: 50px auto;
+}
+
+#gallery{
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(252, 241, 191);
+}
+
+figure{
+    display:inline-block;
+}
+
+figcaption{
+    text-align: left;
+}
+
+.article{
+    margin: 0 10%;
+}
+
+.highlighted{
+    background-color: #FFFF00;
+}
+
+.article ul{
+    margin: 0 10%;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: left;
+}
+
+.titleRow{
+    background-color: rgb(52, 102, 83);
+    color: #FFF;
+}
+
+.greenRow{
+    background-color: rgba(52, 102, 83, 0.5);
+}
+
+.yellowRow{
+    background-color: rgb(252, 241, 191);
+}
+
+td{
+    width: 20%;
+}
+
+.readMore{
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 30px;
+    color: rgb(52, 102, 83);
+}
+
+#link{
+    margin: 0 10%;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(52, 102, 83);
+}
