@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: aliceblue;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#contaimer{
+    position: relative;
+}
+
+header{
+    background: rgb(26, 132, 182) url(../img/pattern.png) center;
+    background-size: contain;
+    position: relative;
+    top: 0px;
+    height: 200px;
+}
+
+header img{
+    height: 100%;
+    background-color: rgba(14, 14, 73, 0.25);
+    padding: 0 50px;
+}
+
+nav{
+    height: 70px;
+    background-color: #55ACEE;
+    position: relative;
+    top:0px;
+    color: #FFFFFF;
+    border-top: 10px rgb(4, 6, 56) solid;
+    border-bottom: 10px rgb(4, 6, 56) solid;
+
+}
+
+#menu li{
+    display: inline;
+    line-height: 50px;
+    font-size: 20px;
+    padding:10px;
+    text-shadow: 2px  2px 4px #3B5998, 
+                 -2px -2px 4px #3B5998;
+
+}
+
+#social{
+    display: inline;
+    float: right;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #6cb8f3;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  #title{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-bottom: 10px rgb(4, 6, 56) solid;
+  }
+
+h1{
+      font-size: 52px;
+      font-weight: 700;
+  }
+
+#title span{
+      font-weight: 700;
+      font-style: italic;
+  }
+
+.author{
+      font-size: 20px;
+  }
+
+#title a{
+    text-decoration: none;
+    color: #4EA0FF;
+}
+
+#gallery{
+    padding:50px;
+    text-align: center;
+    background-color: wheat;
+    border-bottom: 10px rgb(4, 6, 56) solid;
+}
+
+#gallery figure{
+    display: inline-block;
+    padding:25px;
+}
+
+#gallery figcaption{
+text-align: left;
+}
+
+#corpse{
+    padding: 50px;
+    border-bottom: 10px rgb(4, 6, 56) solid;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+hr{
+    border: rgb(4, 6, 56) dotted 10px;
+    border-bottom: none;
+    width: 200px;
+    margin: 50px auto;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: left;
+}
+
+.titleRow{
+    background-color: rgb(4, 6, 56);
+    color: #FFF;
+}
+
+.secondColorRow{
+   background-color: #6cb8f3;
+   margin:25px;
+}
+
+.firstColorRowRow{
+    background-color: aquamarine;
+}
+
+td{
+    width: 20%;
+    padding: 25px;
+}
+
+th{
+    padding: 25px;
+}
+
+#link{
+    padding:50px;
+    text-align: center;
+    background-color: 6cb8f3;
+    border-bottom: 10px rgb(4, 6, 56) solid;
+}
+
+#link figure{
+    display: inline-block;
+    padding:25px;
+}
+
+#link figcaption{
+text-align: left;
+}
+
+footer{
+    background-color: rgb(26, 132, 182);
+    padding: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-bottom: 10px rgb(4, 6, 56) solid;
+    text-shadow: 5px  5px 6px #0f2658, 
+    -5px -5px 6px #0f2658;
+}
