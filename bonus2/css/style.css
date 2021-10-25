@@ -90,3 +90,7 @@ td{
     padding: 50px;
     background-color: rgb(52, 102, 83);
 }
+
+#link figcaption{
+    color: #FFF;
+}
