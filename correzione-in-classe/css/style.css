@@ -86,14 +86,14 @@ table{
 #linkOne{
     width: 250px;
     height: 200px;
-    background: url(../img/monitor.jpg) no-repeat;
+    background: url(../img/monitor.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 #linkTwo{
     width: 250px;
     height: 200px;
-    background: url(../img/graph.jpg) no-repeat;
+    background: url(../img/graph.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
