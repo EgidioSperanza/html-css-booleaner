@@ -36,6 +36,11 @@ a{
     background-color: #FFFF00;
 }
 
+ul{
+    margin: 0 auto;
+    padding: 15px;
+}
+
 table{
     width: 100%;
     margin: 0 auto;
