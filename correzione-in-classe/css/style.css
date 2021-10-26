@@ -1,0 +1,103 @@
+html, body{
+    margin:0 auto;
+}
+
+.container{
+    width: 1200px;
+}
+
+header{
+    background:  #4EA0FF url(../img/pattern.png) top center;
+}
+
+#logo{
+    height: 80px;
+    margin: 80px 5px 10px ;
+}
+
+main {
+    margin: 0 5px;
+}
+.author, .date, .readMore{
+    color:#808080;
+    margin: 0px;;
+}
+
+.author, .readMore{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.caption{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #4EA0FF;
+}
+
+h1{
+    margin-bottom: 0px      ;
+}
+
+.gallery{
+    height: 300px;
+    margin:20px 0 10px;
+}
+
+.gallery img{
+    height: 100%;
+}
+
+.date, .gallery p{
+    font-size: 14px;
+}
+
+.highlighted{
+    background-color: #FFFF00;
+}
+
+ul{
+    margin: 0 0 20px;
+    padding-left: 15px;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse:collapse; /*border-spacing:0;*/
+    text-align: left;
+}
+
+
+.tTitle{
+    background-color: #4EA0FF;
+}
+
+.coloredRow{
+    background-color: aquamarine;
+}
+
+.moreText{
+    width: 50%;
+}
+
+#linkOne{
+    width: 250px;
+    height: 200px;
+    background: url(../img/monitor.jpg) no-repeat;
+    background-size: cover;
+}
+
+#linkTwo{
+    width: 250px;
+    height: 200px;
+    background: url(../img/graph.jpg) no-repeat;
+    background-size: cover;
+}
+
+h3{
+    color:#FFFFFF;
+    margin: 10px;
+}
